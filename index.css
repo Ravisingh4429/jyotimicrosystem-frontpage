@@ -1,0 +1,250 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto Slab", serif;
+  /* box-sizing: border-box; */
+}
+header {
+  display: flex;
+  /* background-color: rgb(213, 252, 121); */
+  /* justify-content: space-between; */
+  /* padding: 10px; */
+}
+#logo img {
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 39px 15px;
+}
+nav {
+  display: flex;
+  /* margin-left: 10px; */
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+#logo {
+  margin-left: 8%;
+}
+nav a:hover {
+  background-color: orange;
+}
+/*  */
+#banner {
+  background-image: url(./images/banner.jpeg);
+  height: 550px;
+  width: 100%;
+  /* margin-top: 10px; */
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* line-height: 80px; */
+  text-transform: uppercase;
+}
+#banner p {
+  color: aliceblue;
+  /* font-size: small; */
+  /* font-weight: 900; */
+}
+h1 {
+  font-size: 60px;
+  color: aliceblue;
+  line-height: 100px;
+}
+#banner1 {
+  background-color: #f89406;
+  border: none;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 15px;
+  border: 1px solid transparent;
+}
+#banner1:hover {
+  background-color: white;
+  color: orange;
+  border-color: orange;
+  transition: all 0.5s ease;
+}
+#client {
+  background-color: rgba(243, 223, 134, 0.132);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 50%;
+  align-items: center;
+  width: 90%;
+}
+#client img {
+  height: 50%;
+  padding: 2px;
+
+  /* box-shadow: 8px 8px 2px 1px rgb(234, 150, 150); */
+}
+#client_banner {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f0e6;
+  flex-direction: column;
+}
+h2 {
+  margin-bottom: 2%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+#mainfotter {
+  background-color: black;
+  /* height: 70px; */
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#first img {
+  height: 80px;
+  padding-bottom: 10%;
+}
+#second a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: larger;
+}
+#second,
+#third,
+#fourth {
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+#second p {
+  font-size: 25px;
+  padding-bottom: 20%;
+}
+#third a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: larger;
+}
+#third p {
+  font-size: 25px;
+  padding-bottom: 20%;
+}
+#fourth p {
+  font-size: 25px;
+  padding-bottom: 30%;
+  box-sizing: border-box;
+}
+#fourth a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: larger;
+}
+#fourth {
+  padding-top: 10%;
+}
+#second {
+  padding-top: 2%;
+}
+#downfooter {
+  background-color: #333132;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+span {
+  color: #f8941d;
+}
+#second a:hover {
+  color: #f8941d;
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+#third a:hover {
+  color: #f8941d;
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+#fourth a:hover {
+  color: #f8941d;
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+#aboutus {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+}
+#abtfir img {
+  height: 607px;
+  /* width: 600px; */
+}
+
+#abtscr {
+  /* letter-spacing: 1px; */
+  line-height: 30px;
+}
+h3 {
+  font-size: 2em;
+}
+#abt {
+  background-color: #f89406;
+  border: 1px solid transparent;
+  color: #f1f1f1;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: large;
+  text-decoration: none;
+  margin-top: 10%;
+  
+}
+#abt:hover {
+  background-color: white;
+  color: orange;
+  border-color: orange;
+  transition: all 0.5s ease-out;
+}
+#aboutusf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f1f1f1;
+  /* width: 100px; */
+  flex-direction: column;
+  line-height: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* flex-wrap: wrap; */
+}
+h4{
+  font-size: 50px;
+  text-transform: uppercase;
+}
